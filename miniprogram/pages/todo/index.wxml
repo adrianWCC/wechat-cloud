@@ -1,0 +1,6 @@
+<!--todo.wxml-->
+<view class="container">
+  <view class="list-item" wx:for="{{todos}}">
+    {{item._id}}
+  </view>
+</view>
